@@ -9,5 +9,5 @@ def fact(x):
 bobo=int(input('Ввести факторіал: '))
 print(f'Факторіал: {fact(bobo)}')
 t = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
-print(f'Час роботи {t} seconds')
+print(f'Час роботи {t} сек')
 
